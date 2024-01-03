@@ -1,0 +1,21 @@
+{
+  "name": "burgercap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "tailwindcss -i plugin.css   -o ./css/plugin.min.css --minify",
+    "watch": "tailwindcss -i plugin.css   -o ./css/plugin.min.css --watch",
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "vite": "^5.0.10"
+  }
+}
